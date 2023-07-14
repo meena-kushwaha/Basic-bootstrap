@@ -173,8 +173,54 @@
             <li class="dropdown-item">Menu-3</li>
         </ul>
     </div>
-    <br><br><br><br><br><br><br><br><br><br>
     </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <h1 class="text-center bg-primary p-2 text-white">Bootstrap Collapse</h1>
+    <hr>
+    <hr>
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test">Paragraph</button>
+    <div class="collapse" id="test">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio eum praesentium non quo nobis beatae voluptate consequatur? Commodi fuga dolor ipsa maiores laudantium, asperiores expedita rerum, numquam, aperiam sunt sint veritatis hic consequuntur dolorem. Enim, quas molestias? Labore at inventore assumenda, id itaque, illo in beatae hic amet, iure modi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quasi cumque est natus praesentium quod nesciunt aperiam iste nulla commodi!</p>
+    </div>
+    <hr>
+    <hr>
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test1">Paragraph</button>
+    <div class="collapse show" id="test1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio eum praesentium non quo nobis beatae voluptate consequatur? Commodi fuga dolor ipsa maiores laudantium, asperiores expedita rerum, numquam, aperiam sunt sint veritatis hic consequuntur dolorem. Enim, quas molestias? Labore at inventore assumenda, id itaque, illo in beatae hic amet, iure modi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quasi cumque est natus praesentium quod nesciunt aperiam iste nulla commodi!</p>
+    </div>
+    <hr>
+    <hr>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-1">Paragraph-1</button>
+            </div>
+            <div class="card-body collapse show" id="para-1" data-bs-parent="accordion">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sit magni nostrum dignissimos eum similique assumenda ipsam, tempora optio numquam aperiam! Aut dolores dicta accusantium quae obcaecati provident molestias maxime omnis pariatur laborum est non a, aspernatur excepturi eum, quaerat earum aperiam ipsam eius deserunt deleniti debitis magni rerum sint.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-2">Paragraph-2</button>
+            </div>
+            <div class="card-body collapse" id="para-2" data-bs-parent="accordion">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sit magni nostrum dignissimos eum similique assumenda ipsam, tempora optio numquam aperiam! Aut dolores dicta accusantium quae obcaecati provident molestias maxime omnis pariatur laborum est non a, aspernatur excepturi eum, quaerat earum aperiam ipsam eius deserunt deleniti debitis magni rerum sint.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-3">Paragraph-3</button>
+            </div>
+            <div class="card-body collapse " id="para-3" data-bs-parent="accordion">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In sit magni nostrum dignissimos eum similique assumenda ipsam, tempora optio numquam aperiam! Aut dolores dicta accusantium quae obcaecati provident molestias maxime omnis pariatur laborum est non a, aspernatur excepturi eum, quaerat earum aperiam ipsam eius deserunt deleniti debitis magni rerum sint.</p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br> <br><br><br><br><br>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
